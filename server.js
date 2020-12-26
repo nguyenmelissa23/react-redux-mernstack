@@ -10,7 +10,8 @@ process.on('uncaughtException', err => {
 	process.exit(1);
 })
 
-//1. Config file for NODE
+//1. Config file for NODE 
+// review file called 'config-example.env' for file set up.
 dotenv.config({path: './config.env'});
 // console.log(process.env);
 
