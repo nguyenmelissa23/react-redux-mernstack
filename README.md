@@ -2,8 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-### To run project for development process, use: 'nodemon'
-Project can be updated live as code is revised.<br />
+### `nodemon`
+To run project for development process. Project will be updated automatically as code is revised.<br />
 
 In the project directory, you can run:
 
