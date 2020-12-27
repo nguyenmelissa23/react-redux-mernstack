@@ -12,12 +12,12 @@ process.on('uncaughtException', err => {
 
 //1. Config file for NODE 
 // review file called 'config-example.env' for file set up.
-dotenv.config({path: './config.env'});
+dotenv.config({path: './config/config.env'});
 // console.log(process.env);
 
 //2. Set up DB info
 const DB = process.env.DATABASE.replace('<password>', process.env.DATABASE_PASSWORD).replace('<dbname>', process.env.DATABASE_NAME);
-console.log(DB);
+// console.log(DB);
 //3. Connect to DB
 mongoose
 	.connect(DB, {
